@@ -35,6 +35,7 @@ public class mf {
 		System.out.println("my architecture projects");
 		architecture arch = new architecture();
 		arch.firstYear();
+		arch.secondYear();
 	}
 	
 	/**

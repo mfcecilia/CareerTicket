@@ -30,7 +30,7 @@ public class architectureData extends architecture {
     
     @Override
     public String toString() {
-        return "[First Year Architecture Projects] TITLE: " + title + " DESCRIPTION: " + description + "";
+        return "TITLE: " + title + " DESCRIPTION: " + description + "";
     }
 
 }

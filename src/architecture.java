@@ -16,23 +16,28 @@ public class architecture extends mf {
 		System.out.println("2011");
 		
 		Map<Integer,architectureData> map = new HashMap<Integer, architectureData>();
-	    architectureData project1= new architectureData(1,"Sweettrees", "Naef Competition - "
+	    
+		architectureData project1= new architectureData(1,"Sweettrees", "Naef Competition - "
 	    		+ "a competition given by a Swiss toy company called Naef. The prompt was to create a "
 	    		+ "wooden toy for children");
 	    
+	    architectureData project2= new architectureData(2,"Spatial Construct", 
+	    		"Design a cube that is both open and closed");
+	    
 	  //adding values to map
 	    map.put(project1.getKey(), project1);
+	    map.put(project2.getKey(), project2);
 	    
 	  //retrieving values from map
-	    Set<Integer> keySet= map.keySet();
-	    for(int i:keySet){
+	    Set<Integer> keySet = map.keySet();
+	    for(int i: keySet){
 	        System.out.println(map.get(i));
 	    }
 	    
 	  //searching key on map
-	    System.out.println(map.containsKey(project1.getKey()));
-	    //searching value on map
-	    System.out.println(map.containsValue(project1));
+	    //System.out.println(map.containsKey(project1.getKey()));
+	  //searching value on map
+	    //System.out.println(map.containsValue(project1));
 	}
 	
 	/**
