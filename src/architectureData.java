@@ -1,5 +1,5 @@
 /**
- * Contains map data
+ * Manages hashmap data
  * @author Mykayla Fernandes
  * @version 2016.01.02
  */
@@ -30,7 +30,7 @@ public class architectureData extends architecture {
     
     @Override
     public String toString() {
-        return "architecture projects [title=" + title + ", description=" + description + "]";
+        return "[First Year Architecture Projects] TITLE: " + title + " DESCRIPTION: " + description + "";
     }
 
 }

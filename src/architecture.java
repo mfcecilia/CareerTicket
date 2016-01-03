@@ -3,8 +3,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * This class contains a data structure which will hold 
- * and organize all architecture related information.
+ * This class contains all architecture related information.
  * @author Mykayla Fernandes
  * @version 2016.01.02
  */
@@ -17,10 +16,12 @@ public class architecture extends mf {
 		System.out.println("2011");
 		
 		Map<Integer,architectureData> map = new HashMap<Integer, architectureData>();
-	    architectureData year1= new architectureData(1,"toy", "naef competition");
+	    architectureData project1= new architectureData(1,"Sweettrees", "Naef Competition - "
+	    		+ "a competition given by a Swiss toy company called Naef. The prompt was to create a "
+	    		+ "wooden toy for children");
 	    
 	  //adding values to map
-	    map.put(year1.getKey(), year1);
+	    map.put(project1.getKey(), project1);
 	    
 	  //retrieving values from map
 	    Set<Integer> keySet= map.keySet();
@@ -29,9 +30,9 @@ public class architecture extends mf {
 	    }
 	    
 	  //searching key on map
-	    System.out.println(map.containsKey(year1.getKey()));
+	    System.out.println(map.containsKey(project1.getKey()));
 	    //searching value on map
-	    System.out.println(map.containsValue(year1));
+	    System.out.println(map.containsValue(project1));
 	}
 	
 	/**
