@@ -11,6 +11,7 @@ public class portfolio {
 	public static void main(String[] args) {
 		System.out.println("Your next employee");
 		mf mf = new mf();
+		mf.name();
 		mf.edu();
 		mf.work();
 		mf.cs();
@@ -20,6 +21,7 @@ public class portfolio {
 		mf.soft();
 		mf.lang();
 		mf.other();
+		mf.awards();
 
 	}
 

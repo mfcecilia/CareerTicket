@@ -8,31 +8,38 @@
 public class mf {
 	
 	/**
-	 * My education background
+	 * name of new employee
+	 */
+	public void name() {
+		System.out.println("Mykayla Fernandes");
+	}
+	
+	/**
+	 * Education background
 	 */
 	public void edu() {
-		System.out.println("my education background");
+		System.out.println("Education");
 	}
 	
 	/**
-	 * My work experience
+	 * Work Experience
 	 */
 	public void work() {
-		System.out.println("my work experience");
+		System.out.println("Work Experience");
 	}
 	
 	/**
-	 * My computer science projects, skills, and education
+	 * Computer Science projects, skills, and education
 	 */
 	public void cs() {
-		System.out.println("my cs projects");
+		System.out.println("Computer Science Projects");
 	}
 	
 	/**
 	 * My architecture projects
 	 */
 	public void arch() {
-		System.out.println("my architecture projects");
+		System.out.println("Architecture Projects");
 		architecture arch = new architecture();
 		arch.firstYear();
 		arch.secondYear();
@@ -42,35 +49,42 @@ public class mf {
 	 * My theatrical production skills and education
 	 */
 	public void scene() {
-		System.out.println("my scenography work");
+		System.out.println("Scenography Projects");
 	}
 	
 	/**
 	 * My extracurricular activities and club involvement
 	 */
 	public void clubs() {
-		System.out.println("club involvement");
+		System.out.println("Club Involvement");
 	}
 	
 	/**
 	 * Software I've learned and level of mastery
 	 */
 	public void soft() {
-		System.out.println("software proficiency");
+		System.out.println("Software Proficiency");
 	}
 	
 	/**
 	 * Programming languages I've learned and level of mastery
 	 */
 	public void lang() {
-		System.out.println("language proficiency");
+		System.out.println("Language Proficiency");
 	}
 	
 	/**
 	 * My other skills and expertise
 	 */
 	public void other() {
-		System.out.println("other skills and expertise");
+		System.out.println("Other Skills and Expertise");
+	}
+	
+	/**
+	 * Awards, Honors, and Publications
+	 */
+	public void awards() {
+		System.out.println("Awards, Honors, and Publications");
 	}
 
 
